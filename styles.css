@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 21px;
+    
+}
+body{
+    background-color:rgb(236, 255, 244);
+}
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85;
+    padding: 5px 10%;
+}
+/* ---------------- */
+/*logo */
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3;
+    border-radius: 80%;
+    
+}
+.header .logo img:hover{
+    transform: scale(1.4);
+}
+/* ---------------- */
+/*nav-bar */
+.header .nav-enlaces{
+    list-style: none;
+}
+.header .nav-enlaces li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-enlaces li:hover{
+    transform: scale(1.1);
+}
+.header .nav-enlaces a{
+   font-size: 700;
+   color: black;
+   text-decoration: none;
+}
+
+.header .nav-enlaces li a:hover{
+    color: #03da5d;
+}
+/* ---------------- */
+/* estilo footer */
+
+.footer {
+    background-color: white;
+    display:flex;
+   
+    justify-content: space-between;
+   align-items: end;
+    height: 65;
+    padding: 5px 10%;
+}
+.footer .footer-enlaces li{
+    display: inline-block;
+    padding: 0 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.footer .footer-enlaces li a:hover{
+    color: #03da5d;
+}
+.footer .footer-enlaces a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+ }

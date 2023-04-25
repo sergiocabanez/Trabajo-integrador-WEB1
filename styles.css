@@ -8,7 +8,7 @@
     
 }
 body{
-    background-color:rgb(236, 255, 244);
+    background-color:rgb(0, 240, 100);
 }
 .header {
     background-color: white;
@@ -82,4 +82,24 @@ body{
     font-size: 14px;
     color: black;
     text-decoration: none;
+ }
+/*formulario estilo*/
+
+ .fomulario{
+
+    display: flex;
+    align-content: center;
+ }
+ /*estilo quienes somos*/
+
+ .qsomos{
+background-image: url(./images/farmagondola.jpg);
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 85%;
+padding-top: 200px;
+padding-bottom: 200px;
+display: flexbox;
+
  }
